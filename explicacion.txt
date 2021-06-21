@@ -1,0 +1,45 @@
+1. variables: las variables son como cajitas que se guardan en la memoria donde puedo guardar valores como letras, numeros o incluso instrucciones de como hacer algo, a los cuales mas tarde puedo acceder para usar como quiera.
+
+2. strings: es una secuencia de caracteres, no puedo sumarlos ni restarlos ni hacer ninguna operacion matematica, solo puedo mostrarlos o juntarlos. Pueden ser letras, numeros, lo que sea con excepcion de ciertos caracteres que cumplen una funcion especifica. 
+
+3. funciones: son instrucciones para hacer alguna cosa, por ejemplo cocinar un pastel. Si quiero cocinar un pastel y no tener que hacer todos los pasos cada vez, simplemente escribo los pasos dentro de una funcion (por ejemplo: function hacerPastel(){ // pasos } ) y cuando voy a hacer un pastel nuevo, simplemente la llamo (ej: hacerPastel() ) y automaticamente hace todos los pasos que solo tuve que indicar una vez.
+una funcion puede tener argumentos, por ejemplo el gusto del pastel ej: hacerPastel('frutilla') ya que, si asi lo requieren las instrucciones, necesito pasarle ese parametro para que las lleve a cabo. Una funcion puede retornar algo o no, en javascript por defecto returna un valor "undefined" a menos que indique explicitamente que retorne algo (por ejemplo, el pastel ya hecho)
+
+4. declaraciones if: las declaraciones if son condiciones que se ponen en las instrucciones que escribo en el codigo y evalua sin son verdad, tomando el ejemplo del pastel puedo poner que dentro de las instrucciones si es verdad que el parametro pasado es igual a "frutilla", entonces que ejecute unas instrucciones extras o puedo por ejemplo indicar que sino es verdad la funcion retorne un valor nulo, para evitar hacer un pastel que no sea de frutilla
+
+5. valores booleanos: son valores que solo pueden ser verdadero o falso, son muy utiles a la hora de usar las condiciones, ya que puedo evaluar facilmente si uno de estos valor es verdadero o no para poder decidir que hacer entonces.
+
+
+6. bucle for: sirve para ir recorriendo un conjunto de valores por sus indices segun le indiquemos, tiene un valor inicial desde donde empieza a recorrer el conjunto de valores a los cuales asignamos previamente un indice, tiene una condicion que mientras se cumpla continua recorriendo el conjunto (por ejemplo que mientras que el indice sea menor a 60 lo siga recorriendo) y finalmente tiene un incrementador del indice, para que al ir aumentando vaya visitando el indice siguiente.
+
+
+7. &&: sirve para indicar que dos o mas condiciones deben cumplirse para que el resultado sea verdadero, por ejemplo si tenemos 2 condiciones que 2 > 1 && 3 > 1 entonces el resultado de esas dos condiciones es verdadero.
+
+
+8. ||: sirve para indicar que al menos una de las condiciones deben cumplirse para que el resultado sea verdadero, por ejemplo si tenemos 2 condiciones que 2 > 1 || 3 > 1 y alguna de esas dos condiciones es verdadera, entonces el resultado es verdadero. 
+
+
+9. !: el signo de admiración sirve para invertir el valor verdadero o falso de una variable, como en javascript todos los valores son truthy o falsy cuando son evaluados, entonces colocando un ! delante del valor puede convertirlo en su valor opuesto. 
+
+
+10. arrays: es un tipo de estructura de datos que me permite almacenar valores por separado al mismo tiempo que estan juntos, de la misma manera que un mueble con muchos cajones me permite guardar por separado muchas cosas pero que al mismo tiempo estan dentro del mismo mueble.
+
+
+11. objetos: es un tipo de estructura de datos que me permite almacenar valores mediante una llave asociada a él. por ejemplo puedo almacenar mi nombre "esteban" siempre y cuando lo asocie a una llave del objeto, como por ejemplo "nombre". por ejemplo {nombre: "esteban"}.
+
+
+12. propiedades: son las llaves que estan asociadas a un valor dentro de un objeto.
+
+
+13. el bucle for in sirve para recorrer las llaves y valores de los objetos, tambien sirven para hacer lo mismo con los arrays, ya que los arrays tambien son objetos (al menos en javascript)
+
+
+14. con la notacion de corchetes puedo acceder no solo al valor de las variables a modo de nombre de la propiedad del objeto, sino que tambien puedo poner cualquier secuencia de caracateres que tambien es valida, ej obj['una-propiedad'] mientras que con la notacion de punto obj.una-propiedad nunca podria ser valido
+
+
+15. prototype: el prototype es un objeto que poseen las clases de javascript que contiene valores y metodos que puede utilizar la clase en cuestion.
+
+16. constructor: es un metodo especial que se llama cuando se crea una nueva instancia de una clase, ahi mismo se definen los valores iniciales que debe poseer esa instancia de la clase al inicializarse.
+
+
+17. las funciones callback son un conjunto de instrucciones (como las del ejemplo del pastel del punto 3) que dejo indicado que se llamen una vez que se completo determinada tarea o se produjo determinado evento. Por ejemplo si hago un click con el mouse en algun elemento de una pagina web, indico que un callback sea llamado para ejectuar determinadas instrucciones o tareas.

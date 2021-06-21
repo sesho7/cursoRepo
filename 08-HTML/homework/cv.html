@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tarea HTML de Esteban</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #1b4163;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            height: 50px;
+            background-color: #2d2a2a;
+            padding: 10px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            color: rgb(196, 195, 216);
+        }
+
+        nav>h1 {
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .item-lista {}
+
+        .contenedor-lista {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 25%;
+            color: rgb(196, 195, 216);
+            justify-content: center;
+        }
+
+        img {
+            border-radius: 50%;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+        .contenedor-main{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <h1>Curriculum vitae</h1>
+    </nav>
+
+    <div class="contenedor-main">
+
+        <ul class="contenedor-lista">
+            <li class="item-lista">
+                <h3>Descripción Personal:</h3>
+                <p class="parrafo">38 años, hombre, soltero, vivo en CABA.</p>
+
+            </li>
+            <li>
+                <h3>Educación:</h3>
+                <p>Terciaria incompleta (IFTS nro 4, un lugar donde no se aprende nada y dejan pasar a los alumnos
+                    aunque no estudien para poder justificar los sueldos de los profesores).</p>
+            </li>
+            <li>
+                <h3>Experiencias Laborales:</h3>
+                <p>Customer support y ventas</p>
+            </li>
+            <li>
+                <h3>Skills:</h3>
+                <p>Hace varios años que hago todo con el stack MERN,
+                    actualmente estoy haciendo mi tercera plataforma (siendo la primera un imageboard y la segunda un
+                    foro estilo taringa),
+                    una suerte de red social que combina facebook, reddit y taringa
+                </p>
+            </li>
+            <li>
+                <h3>Mi foto:</h3>
+                <img
+                    src='https://media-exp1.licdn.com/dms/image/C4D03AQH7i5qG9eP8XQ/profile-displayphoto-shrink_200_200/0/1583158147193?e=1629936000&v=beta&t=LXx2F-wLgtf3B0gSFm0IlpLmjsd8LyaYSKNEK61uycM' />
+            </li>
+            <li>
+                <h3>Hobbies:</h3>
+                <p>Programar, videojuegos</p>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
